@@ -1,0 +1,22 @@
+/* add your styles here */
+
+.App {
+    text-align: center;
+  }
+  
+  .gallery-heading {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; 
+    justify-items: center; /* Centers grid items horizontally */
+  }
+  
+  .image-container img {
+    width: 100%; 
+    height: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
